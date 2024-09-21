@@ -1,0 +1,13 @@
+.idea
+.idea/*
+wp-content/uploads
+wp-content/themes/epal-theme/node_modules
+wp-content/cache
+wp-content/plugins/duplicate-post
+.htaccess
+wp-config.php
+.vscode/
+wp-content/themes/twentytwentyone
+wp-content/themes/twentytwentytwo
+wp-content/themes/twentytwentythree
+.DS_Store

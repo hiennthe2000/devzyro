@@ -1,0 +1,33 @@
+.page-template-default {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    ul,
+    ol {
+        padding-left: 7%;
+        padding-right: 7%;
+
+        li {
+
+            padding-left: 20px;
+        }
+    }
+
+    #menu-main {
+
+        ul,
+        ol {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}

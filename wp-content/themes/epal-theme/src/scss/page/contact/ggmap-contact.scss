@@ -1,0 +1,25 @@
+.ggmap {
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    .container {
+        .ggmap-body {
+            border-radius: 20px;
+
+            iframe {
+                width: 100%;
+                height: 552px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .ggmap {
+        padding: 0;
+        padding-bottom: 35px;
+    }
+}

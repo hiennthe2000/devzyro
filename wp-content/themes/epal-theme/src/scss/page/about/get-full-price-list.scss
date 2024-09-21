@@ -1,0 +1,363 @@
+.get-full-price-list {
+  padding: 137px 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+
+  .container {
+    .get-full-price-list-body {
+      align-items: center;
+      justify-content: space-between;
+
+      .intro-left {
+        .title {
+          color: var(--Black, #000);
+          font-family: var(--Inter-B);
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 160%;
+          text-transform: uppercase;
+
+          span,
+          a,
+          p,
+          strong {
+            margin-bottom: 0;
+            color: var(--Black, #000);
+            font-family: var(--Inter-B);
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            text-transform: uppercase;
+
+            font {
+              font-family: var(--Inter-B);
+              font-size: 40px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 160%;
+              text-transform: uppercase;
+            }
+          }
+        }
+
+        .desc {
+          max-width: 301px;
+          color: var(--Black, #000);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+
+          span,
+          a,
+          p,
+          strong {
+            margin-bottom: 0;
+            max-width: 301px;
+            color: var(--Black, #000);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+
+            font {
+              max-width: 301px;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+
+          /* 150% */
+        }
+      }
+
+      .form-right {
+        max-width: 570px;
+        padding: 0 0 0 15px;
+
+        .af-form {
+          .af-fields {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2%;
+
+            .af-field {
+              padding: 0;
+              margin-top: 20px;
+              border: none;
+
+              .af-label {
+                color: var(--Black, #000);
+                font-family: var(--Inter-M);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 190%;
+              }
+
+              .acf-input-wrap {
+                input {
+                  outline: none;
+                  padding: 19px 33px;
+                  border-radius: 12px;
+                  border: 1px solid var(--Gray, #e0e1e8);
+                  background: var(--White, #fff);
+
+                  &::placeholder {
+                    color: var(--Black, #000);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 190%;
+
+                    font {
+                      color: var(--Black, #000);
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 400;
+                      line-height: 190%;
+                    }
+
+                    /* 30.4px */
+                  }
+                }
+              }
+
+              .af-input {
+                textarea {
+                  outline: none;
+                  padding: 19px 33px;
+                  border-radius: 12px;
+                  max-height: 100px;
+                  border: 1px solid var(--Gray, #e0e1e8);
+                  background: var(--White, #fff);
+
+                  &::placeholder {
+                    color: var(--Black, #000);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 190%;
+                    padding-bottom: 20px;
+
+                    font {
+                      color: var(--Black, #000);
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 400;
+                      line-height: 190%;
+                    }
+                  }
+                }
+              }
+            }
+
+            .af-field-name,
+            .af-field-email,
+            .af-field-telegram,
+            .af-field-telergam,
+            .acf-field-text {
+              width: 32%;
+            }
+
+            .af-field-content {
+              width: 100%;
+            }
+
+            .af-submit {
+              padding: 0;
+              margin-top: 20px;
+              width: 100%;
+
+              button {
+                cursor: pointer;
+                text-align: center;
+                width: 100%;
+                padding: 27px 0;
+                border-radius: 100px;
+                background: var(--Black, #000);
+                color: var(--White-Color, #fff);
+                font-family: var(--Inter-B);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+
+                font {
+                  color: var(--White-Color, #fff);
+                  font-family: var(--Inter-B);
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 100%;
+                }
+
+                /* 14px */
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1112px) {
+  .get-full-price-list {
+    padding: 100px 0;
+
+    .container {
+      .get-full-price-list-body {
+        .form-right {
+          padding: 0 15px 0px 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .get-full-price-list {
+    .container {
+      .get-full-price-list-body {
+        .form-right {
+          max-width: unset;
+          padding: 0 40px 0px 40px;
+        }
+
+        .intro-left {
+          text-align: center;
+
+          .desc {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .get-full-price-list {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 667px) {
+  .get-full-price-list {
+    .container {
+      .get-full-price-list-body {
+        .intro-left {
+          .title {
+            span,
+            a,
+            p,
+            strong {
+              font-size: 30px !important;
+
+              font {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  .get-full-price-list {
+    .container {
+      .get-full-price-list-body {
+        flex-direction: column;
+
+        .intro-left {
+          max-width: unset;
+          text-align: center;
+
+          .desc {
+            margin: auto;
+          }
+        }
+
+        .form-right {
+          padding: 0 25px 0px 25px;
+
+          .af-form {
+            .af-fields {
+              .acf-field-text .af-field-name,
+              .af-field,
+              .af-field-telergam,
+              .acf-field-text {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .get-full-price-list {
+    padding: 35px 0;
+
+    .container {
+      .get-full-price-list-body {
+        .intro-left {
+          .title {
+            span,
+            a,
+            p,
+            strong {
+              font-size: 20px !important;
+
+              font {
+                font-size: 20px;
+              }
+            }
+          }
+
+          .desc {
+            font-size: 15px;
+
+            font {
+              font-size: 15px;
+            }
+          }
+        }
+
+        .form-right {
+          .af-form {
+            .af-fields {
+              .af-field {
+                .acf-input-wrap {
+                  input {
+                    padding: 16px 33px;
+
+                    &::placeholder {
+                      font-size: 15px;
+                    }
+                  }
+                }
+              }
+
+              .af-submit {
+                button {
+                  padding: 20px 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

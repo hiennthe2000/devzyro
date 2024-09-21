@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import "color-font";
+@import "class-gen";
+@import "error-404";
+@import "style";
+@import "page/home";
+@import "responsive";
+
+/** 
+ * Thư mục shared
+ */
+@import "page/shared/menu-main";
+@import "page/shared/banner";
+@import "page/shared/footer";
+@import "page/shared/breadcumb";
+
+/** 
+ * Thư mục about
+ */
+@import "page/about/banner-about";
+@import "page/about/about-us";
+@import "page/about/our-team";
+@import "page/about/get-full-price-list";
+
+/**
+ * Thư mục services
+ */
+@import "page/services/banner-service";
+@import "page/services/list-services";
+@import "page/services/single-service";
+
+/**
+ * Thư mục contact
+ */
+@import "page/contact/banner-contact";
+@import "page/contact/form-info-contact";
+@import "page/contact/ggmap-contact";
+
+//home
+@import "page/home/service";

@@ -1,0 +1,382 @@
+.banner-post {
+    padding-top: 70px;
+
+    .banner-post-body {
+        .container {
+            .total-banner {
+                padding-top: 70px;
+                padding-bottom: 26px;
+                display: flex;
+                justify-content: space-between;
+
+                .title {
+                    color: var(--Black, #000);
+                    font-family: var(--Inter-B);
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+
+                    span,
+                    a,
+                    p,
+                    strong {
+                        color: var(--Black, #000);
+                        font-family: var(--Inter-B);
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        margin-bottom: 0;
+
+                        font {
+                            font-family: var(--Inter-B);
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+
+                .search {
+                    max-width: 270px;
+                    width: 100%;
+                    height: 46px;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 22px;
+                    border-radius: 6px;
+                    border: 1px solid var(--Gray, #E0E1E8);
+                    background: var(--White, #FFF);
+                    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+
+                    .search-form {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        input {
+                            border: none;
+                            width: 90%;
+                            outline: none;
+                        }
+
+                        .btn-search {
+                            border: none;
+                            background: unset;
+
+                            .fa {
+                                color: var(--Black-Gray, #848296);
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slider-news {
+                .item {
+                    display: flex;
+                    gap: 30px;
+
+                    .wp-post-image {
+                        max-width: 670px;
+                        width: 100%;
+                        border-radius: 8px;
+                    }
+
+                    .item-total {
+                        .title {
+                            a {
+                                color: var(--Black, #000);
+                                font-family: var(--Inter-B);
+                                font-size: 40px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 160%;
+                                text-transform: capitalize;
+                                margin-bottom: 0;
+
+                                font {
+                                    color: var(--Black, #000);
+                                    font-family: var(--Inter-B);
+                                    font-size: 40px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 160%;
+                                    text-transform: capitalize;
+                                }
+                            }
+                        }
+
+                        .time {
+                            color: var(--Black, #000);
+                            font-family: var(--Inter-M);
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                            margin-top: 50px;
+                            text-transform: capitalize;
+
+                            font {
+                                color: var(--Black, #000);
+                                font-family: var(--Inter-M);
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 24px;
+                                margin-top: 50px;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+
+                .owl-dots {
+                    margin-top: 50px;
+
+                    .owl-dot {
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: #E0E1E8;
+                    }
+
+                    .active {
+                        background-color: #848296;
+                        width: 30px;
+                        height: 10px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner-post {
+        .banner-post-body {
+            .container {
+                .slider-news {
+                    .item {
+                        .wp-post-image {
+                            max-width: 570px;
+                        }
+
+                        .item-total {
+                            .title {
+                                height: 200px;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 834px) {
+    .banner-post {
+        .banner-post-body {
+            .container {
+                .slider-news {
+                    .item {
+                        .wp-post-image {
+                            max-width: 470px;
+                        }
+
+                        .item-total {
+                            .title {
+                                height: 180px;
+                                overflow: hidden;
+
+
+                                a {
+                                    font-size: 35px;
+
+                                    font {
+                                        font-size: 35px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-post {
+        .banner-post-body {
+            .container {
+                .slider-news {
+                    .item {
+                        .wp-post-image {
+                            max-width: 420px;
+                        }
+
+                        .item-total {
+                            .title {
+                                height: 155px;
+
+
+                                a {
+                                    font-size: 30px;
+
+                                    font {
+                                        font-size: 30px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 667px) {
+    .banner-post {
+        .banner-post-body {
+            .container {
+                .slider-news {
+                    .item {
+                        .wp-post-image {
+                            max-width: 370px;
+                        }
+
+                        .item-total {
+                            .title {
+                                height: 155px;
+
+
+                                a {
+                                    font-size: 30px;
+
+                                    font {
+                                        font-size: 30px;
+                                    }
+                                }
+                            }
+
+                            .time {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .total-banner {
+                    .title {
+                        font-size: 30px;
+                        margin-bottom: 0;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .banner-post {
+        padding-top: 45px;
+
+        .banner-post-body {
+            .container {
+                .slider-news {
+                    .owl-dots {
+                        margin-top: 0;
+                    }
+
+                    .item {
+                        flex-direction: column;
+
+                        .wp-post-image {
+                            max-width: unset;
+                        }
+
+                        .item-total {
+                            .title {
+                                height: 105px;
+
+                            }
+
+                        }
+                    }
+                }
+
+                .total-banner {
+                    padding-top: 35px;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-post {
+        padding-top: 45px;
+
+        .banner-post-body {
+            .container {
+                .slider-news {
+                    .item {
+                        gap: 0;
+
+                        .item-total {
+                            .title {
+                                height: 95px;
+                                line-height: 100%;
+
+                                a {
+                                    font-size: 20px;
+
+                                    font {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+
+                            .time {
+                                margin-top: 0;
+                            }
+
+                        }
+                    }
+                }
+
+                .total-banner {
+                    padding-top: 35px;
+
+                    .title {
+                        font-size: 20px;
+
+                        font {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .search {
+                        max-width: 230px;
+                    }
+
+                }
+            }
+        }
+    }
+}

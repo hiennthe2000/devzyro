@@ -1,0 +1,456 @@
+.footer {
+  background-color: #000;
+  overflow: hidden;
+
+  .container-rt {
+    .footer-body {
+      .row {
+        justify-content: center;
+      }
+
+      .content-left-footer {
+        padding: 30px 100px 30px 100px;
+        display: flex;
+        flex-direction: column;
+
+        .logo {
+          width: 194.091px;
+          flex-shrink: 0;
+          text-align: center;
+        }
+
+        .address {
+          margin-top: 15px;
+
+          a {
+            max-width: 370px;
+            margin-top: 3px;
+            color: var(--White, #fff);
+            font-family: var(--Inter-M);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 190%;
+
+            font {
+              text-align: center;
+              max-width: 370px;
+              margin-top: 3px;
+              color: var(--White, #fff);
+              font-family: var(--Inter-M);
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 190%;
+            }
+          }
+        }
+
+        a,
+        .email,
+        .phone {
+          max-width: 370px;
+          margin-top: 3px;
+          color: var(--White, #fff);
+          font-family: var(--Inter-M);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 190%;
+          text-align: center;
+
+          font {
+            text-align: center;
+            max-width: 370px;
+            margin-top: 3px;
+            color: var(--White, #fff);
+            font-family: var(--Inter-M);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 190%;
+          }
+        }
+
+        .icon {
+          margin-top: 27px;
+          display: flex;
+          align-items: center;
+          gap: 16px;
+
+          a {
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+
+      .content-right-footer {
+        padding: 40px 40px 30px 40px;
+
+        .col-sm-6 {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+
+          .box-content {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+
+            img {
+              filter: invert(97%) sepia(13%) saturate(9%) hue-rotate(319deg)
+                brightness(118%) contrast(100%);
+              width: 24px;
+              height: 24px;
+              margin: 0;
+            }
+
+            p {
+              margin-top: 3px;
+              color: var(--White, #fff);
+              font-family: var(--Inter-M);
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 190%;
+              margin: 0;
+              cursor: pointer;
+
+              font {
+                margin-top: 3px;
+                color: var(--White, #fff);
+                font-family: var(--Inter-M);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 190%;
+                cursor: pointer;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .copy-right {
+    border-top: 1px solid rgba(224, 225, 232, 0.5);
+
+    .container {
+      padding: 17px 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .left,
+    .right,
+    p {
+      color: var(--Gray, #e0e1e8);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 190%;
+      margin-bottom: 0;
+
+      font {
+        color: var(--Gray, #e0e1e8);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 190%;
+        margin-bottom: 0;
+      }
+
+      /* 26.6px */
+    }
+  }
+
+  //css icon phone
+  #telegram {
+    position: fixed;
+    right: 5px;
+    bottom: 80px;
+    z-index: 999;
+
+    .telegramring-alo-telegram {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .telegramring-alo-ph-circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+        animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+      }
+
+      .telegramring-alo-ph-circle-fill {
+        width: 85px;
+        height: 85px;
+        position: absolute;
+        border-radius: 50%;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+        animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+      }
+
+      .telegramring-alo-ph-img-circle {
+        position: absolute;
+        border-radius: 50%;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+        animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+
+        .link-telegram {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+
+          img {
+            width: 60px;
+            height: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes phonering-alo-circle-anim {
+    0% {
+      transform: rotate(0) scale(0.5) skew(1deg);
+      opacity: 0.1;
+    }
+
+    30% {
+      transform: rotate(0) scale(0.7) skew(1deg);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: rotate(0) scale(1) skew(1deg);
+      opacity: 0.1;
+    }
+  }
+
+  @keyframes phonering-alo-circle-fill-anim {
+    0% {
+      transform: rotate(0) scale(0.7) skew(1deg);
+      opacity: 0.2;
+    }
+
+    50% {
+      transform: rotate(0) scale(1) skew(1deg);
+      opacity: 0.2;
+    }
+
+    100% {
+      transform: rotate(0) scale(0.7) skew(1deg);
+      opacity: 0.2;
+    }
+  }
+
+  @keyframes phonering-alo-circle-img-anim {
+    0% {
+      transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    10% {
+      transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    20% {
+      transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    30% {
+      transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    40% {
+      transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    50% {
+      transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    100% {
+      transform: rotate(0) scale(1) skew(1deg);
+    }
+  }
+
+  //css icon telegram
+  #show-contact {
+    position: fixed;
+    right: 26px;
+    bottom: 175px;
+    z-index: 999;
+
+    .contact-icon {
+      border-radius: 50%;
+      background-color: #111;
+      padding: 15px;
+
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    .container {
+      .footer-body {
+        .content-left-footer {
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    .container-rt {
+      .footer-body {
+        overflow: hidden;
+
+        .content-left-footer {
+          text-align: center;
+
+          .logo {
+            margin: auto;
+          }
+        }
+
+        .content-right-footer {
+          padding: 20px 40px 30px 40px;
+
+          .col-sm-6 {
+            .box-content {
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 834px) {
+  .footer {
+    .container {
+      .footer-body {
+        .content-left-footer {
+          flex-direction: column;
+        }
+
+        .form-right-footer {
+          height: max-content;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    .container {
+      .footer-body {
+        .row {
+          flex-direction: column;
+
+          .content-left-footer {
+            max-width: unset;
+            padding: 20px 0;
+          }
+
+          .form-right-footer {
+            max-width: unset;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  .footer {
+    .copy-right {
+      .left,
+      .right {
+        margin: auto;
+      }
+    }
+
+    .container-rt {
+      .footer-body {
+        .content-right-footer {
+          padding: 20px 41px 31px 32%;
+
+          .col-sm-6 {
+            margin-top: 25px;
+
+            &:first-child {
+              margin-top: 0;
+            }
+
+            .box-content {
+              justify-content: start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    div.social-links {
+      a {
+        font-size: 14px;
+      }
+    }
+    p {
+      font-size: 14px;
+    }
+    h3.sitename {
+      img {
+        width: 180px;
+      }
+    }
+    .container-rt {
+      .footer-body {
+        .content-left-footer {
+          div {
+            font-size: 14px !important;
+
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .content-right-footer {
+          padding: 20px 41px 31px 28%;
+        }
+      }
+    }
+  }
+}
